@@ -1,0 +1,451 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+button {
+  font-family: Jost;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  width: 130px;
+  height: 48px;
+  border-radius: 600px;
+}
+button.inverted {
+  border: 1px solid #0b103d;
+  color: #0b103d;
+  background: transparent;
+}
+
+button.yellow {
+  width: 184px;
+  height: 62px;
+  background: #f8cc34;
+  color: #0b103d;
+  border: none;
+}
+button.blue-btn {
+  background: #0b103d;
+  width: 184px;
+  height: 62px;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+img {
+  /* width: 100%; */
+}
+
+input {
+  width: 438px;
+  height: 62px;
+  padding: 10px 0px;
+  border-radius: 30px;
+  border: 1px solid #0b103d;
+}
+
+input::placeholder {
+  text-align: center;
+  color: #0b103d;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 88.889% */
+}
+
+/* ------------------------------navbar------------------------------------------- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 60px;
+  align-items: center;
+}
+
+
+/* ------------------------------herosecction------------------------------------------- */
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 117px;
+}
+.container {
+  max-width: 1460px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.left-content {
+  /* margin-left: 113px; */
+  /* width: 736px; */
+  /* height: 166px; */
+  width: 50%;
+}
+.content {
+  font-family: Jost;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #0b103d;
+}
+
+.yello-btn-container {
+  margin-top: 95px;
+}
+.hero-image {
+  width: 50%;
+  position: absolute;
+  right: 0;
+}
+.hero-image img {
+  width: 100%;
+}
+div.arrow-down {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 57px;
+}
+div.arrow-down img {
+  width: 20px;
+}
+
+/* ------------------------------eco-section------------------------------------------- */
+
+.eco-section {
+  background-image: url("./images/people.png");
+  background-repeat: no-repeat;
+  margin-top: 103px;
+}
+.mobile-image-con {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.mobile-image-con .smartphone-img {
+  width: 300px;
+  /* width: ; */
+  border-radius: 46.264px;
+  /* opacity: 0.25; */
+  background: linear-gradient(
+    360deg,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background-repeat: no-repeat;
+}
+
+.eco-leaves {
+  position: absolute;
+}
+.left-blue {
+  left: 631px;
+  margin-right: 411px;
+  width: 123.79px !important;
+  height: 240.907px;
+}
+.right-blue {
+  right: 630px;
+  width: 123.79px !important;
+  height: 240.907px;
+}
+
+/* ------------------------------subscribe secto------------------------------------------- */
+
+.subs-section {
+  position: relative;
+}
+.sub-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.sub-content .content {
+  color: #0b103d;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  letter-spacing: -0.4px;
+  width: 737px;
+  margin-top: 45px;
+}
+
+.stay-informed-cont {
+  text-align: center;
+  margin-top: 56px;
+}
+.stay-informed {
+  color: #0b103d;
+  font-family: Jost;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 116.667% */
+  letter-spacing: -0.48px;
+}
+.email-cont {
+  text-align: center;
+  margin-top: 31px;
+}
+.email-cont input {
+}
+.yello-bnt-cont {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.left-leaf {
+  position: absolute;
+  top: 160px;
+  /* width: 281.269px;
+  height: 333.356px; */
+  left: 8%;
+}
+.left-leaf-shadow {
+  position: absolute;
+  top: 220px;
+  width: 116.642px;
+  height: 352.854px;
+  left: 348px;
+}
+/* ------------------------------question section------------------------------------------- */
+
+.quiz-sec {
+  text-align: center;
+  margin-top: 187px;
+}
+.particpate-con {
+}
+.participate {
+  color: #0b103d;
+  text-align: center;
+  font-family: Jost;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px; /* 150% */
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+.question-number-con {
+}
+.ques-num {
+  color: #0b103d;
+  text-align: center;
+  font-family: Jost;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 116.667% */
+  letter-spacing: -0.48px;
+}
+.progress-bar-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+  height: 3px;
+  width: 100%;
+
+  background: transparent;
+}
+.progres-bar {
+  background: #d9dbf1;
+  height: 3px;
+
+  width: 1086px !important;
+  /* margin-left: 418px; */
+}
+.completed-part {
+  width: 33.33%;
+  height: 3px;
+  background: #0b103d;
+}
+.remain-part {
+}
+
+.qustion-with-image {
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 531px;
+  margin-top: 83px;
+}
+.smartphone-imag-cont {
+}
+
+.question-with-options {
+  margin-left: 88px;
+}
+.ques {
+  color: #0b103d;
+  font-family: Jost;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px; /* 135.714% */
+  letter-spacing: -0.56px;
+  margin-bottom: 64px;
+}
+.options {
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 471px;
+  height: 98px;
+  flex-shrink: 0;
+  border-radius: 22px;
+  border: 1px solid #f8cc34;
+  padding: 23px 40px;
+  margin: 25px 0;
+}
+.option.filled {
+  background-color: #f8cc34;
+}
+.option.filled .option-index {
+  background-color: #e0b82c;
+}
+.option-index {
+  margin-right: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff8e2;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  color: #0b103d;
+  text-align: center;
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px; /* 190% */
+  letter-spacing: -0.4px;
+}
+.option-text {
+  color: #0b103d;
+  font-family: Jost;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px; /* 135.714% */
+  letter-spacing: -0.56px;
+}
+
+/* ------------------------------join us section------------------------------------------- */
+.join-us-sec{
+  position: relative;
+}
+.join-us-text {
+  color: #0b103d;
+  text-align: center;
+  font-family: Jost;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px; /* 150% */
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+.join-us-content {
+  margin-top: 65px;
+  color: #0b103d;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px; /* 170% */
+  letter-spacing: -0.4px;
+}
+.join-us-sub-container {
+  margin-top: 69px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.join-us-sub-box {
+  width: 646px;
+  height: 358px;
+  border-radius: 40px;
+  background: #f9f9f9;
+}
+
+.two-btns {
+  margin-top: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.be-part {
+  color: #0b103d;
+  font-family: Jost;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 116.667% */
+  letter-spacing: -0.48px;
+  margin-right: 26px;
+}
+
+
+.robot-img{
+position: absolute;
+top: 150px;
+left: 0;
+}
+.robot-img-shadow{
+  position: absolute;
+  top: 350px;
+}
+.globe-img{
+  position: absolute;
+  right: 0;
+top: 40px;
+
+
+}
+/* ------------------------------footer section------------------------------------------- */
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+margin-top: 145px;
+}
+.footer-content {
+  display: flex;
+  width: 438px;
+  height: 14px;
+  justify-content: center;
+
+  color: #0b103d;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px; /* 242.857% */
+  letter-spacing: -0.28px;
+}
